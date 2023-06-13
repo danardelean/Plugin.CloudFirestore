@@ -1,5 +1,7 @@
 ﻿using System;
 using Android.Gms.Tasks;
+using Task = Android.Gms.Tasks.Task;
+
 namespace Plugin.CloudFirestore
 {
     internal delegate void OnCompleteHandler(Task task);

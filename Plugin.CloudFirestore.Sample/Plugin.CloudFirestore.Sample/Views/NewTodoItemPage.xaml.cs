@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace Plugin.CloudFirestore.Sample.Views;
 
-using Xamarin.Forms;
-
-namespace Plugin.CloudFirestore.Sample.Views
+public partial class NewTodoItemPage : ContentPage
 {
-    public partial class NewTodoItemPage : ContentPage
+    public NewTodoItemPage()
     {
-        public NewTodoItemPage()
-        {
-            InitializeComponent();
-        }
+        InitializeComponent();
     }
 }

@@ -22,7 +22,7 @@ namespace Plugin.CloudFirestore.Sample.Extensions
                 name = "/" + name;
             }
 
-            return navigationService.NavigateAsync(name, parameters, useModalNavigation, animated);
+            return navigationService.NavigateAsync(name, parameters);
         }
 
         public static Task NavigateAsync<TViewModel, TParameter>(this INavigationService navigationService, TParameter parameter, bool? useModalNavigation = null, bool animated = true, bool wrapInNavigationPage = false, bool noHistory = false) where TViewModel : ViewModelBase<TParameter>

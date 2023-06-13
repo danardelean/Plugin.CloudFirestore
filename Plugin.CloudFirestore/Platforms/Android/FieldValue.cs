@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-
-namespace Plugin.CloudFirestore
+﻿namespace Plugin.CloudFirestore
 {
     public partial class FieldValue
     {

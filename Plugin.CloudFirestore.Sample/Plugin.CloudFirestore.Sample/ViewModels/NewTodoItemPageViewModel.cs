@@ -1,12 +1,7 @@
-﻿using System;
-using Reactive.Bindings;
+﻿using Reactive.Bindings;
 using System.Reactive.Linq;
 using Reactive.Bindings.Extensions;
 using Plugin.CloudFirestore.Sample.Models;
-using Prism.Services;
-using Prism.Navigation;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Plugin.CloudFirestore.Sample.ViewModels
 {
